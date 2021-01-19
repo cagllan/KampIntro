@@ -6,20 +6,20 @@ namespace ClassMetotDemo
     {
         static void Main(string[] args)
         {
-            Customer customer = new Customer();
-            customer.Id = 1;
-            customer.FirstName = "Akira";
-            customer.LastName = "Kurosawa";
-            customer.Mail = "sevensamurai_akirakurosawa@gmail.com";
-            customer.Account = 0;
-            customer.Branch = "Yenimahalle";
+            Musteri musteri = new Musteri();
+            musteri.Id = 1;
+            musteri.FirstName = "Akira";
+            musteri.LastName = "Kurosawa";
+            musteri.Mail = "sevensamurai_akirakurosawa@gmail.com";
+            musteri.Account = 0;
+            musteri.Branch = "Yenimahalle";
 
 
-            CustomerManager customerManager = new CustomerManager();
+            MusteriManager musteriManager = new MusteriManager();
 
-            customerManager.Add(customer);
-            customerManager.InformationOfCustomer(customer);
-            customerManager.Delete(customer);
+            musteriManager.Ekle(musteri);
+            musteriManager.MusteriBilgileri(musteri);
+            musteriManager.Sil(musteri);
             
 
             

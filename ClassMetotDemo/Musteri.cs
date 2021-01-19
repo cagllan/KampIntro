@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ClassMetotDemo
 {
-    class Customer
+    class Musteri
     {
         public int Id { get; set; }
         public string FirstName { get; set; }
