@@ -27,6 +27,7 @@ namespace ClassMetotDemo
             Console.WriteLine("Email: " + customer.Mail);
             Console.WriteLine("Bakiye: " + customer.Account);
             Console.WriteLine("Şube: " + customer.Branch);
+            Console.WriteLine("---------------------");
         }
     }
 }
