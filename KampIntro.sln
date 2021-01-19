@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DegerVeReferansTipler", "De
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methods", "Methods\Methods.csproj", "{724144C8-5FA1-4B73-AE6C-FBC493D93FAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefOutKeyword", "RefOutKeyword\RefOutKeyword.csproj", "{E1BEB651-6A4C-4BFD-A081-198C963D2539}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefOutKeyword", "RefOutKeyword\RefOutKeyword.csproj", "{E1BEB651-6A4C-4BFD-A081-198C963D2539}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassMetotDemo", "ClassMetotDemo\ClassMetotDemo.csproj", "{8871F2D5-60F0-42B4-9CE1-BF0AA58FEA72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{E1BEB651-6A4C-4BFD-A081-198C963D2539}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1BEB651-6A4C-4BFD-A081-198C963D2539}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1BEB651-6A4C-4BFD-A081-198C963D2539}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8871F2D5-60F0-42B4-9CE1-BF0AA58FEA72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8871F2D5-60F0-42B4-9CE1-BF0AA58FEA72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8871F2D5-60F0-42B4-9CE1-BF0AA58FEA72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8871F2D5-60F0-42B4-9CE1-BF0AA58FEA72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
