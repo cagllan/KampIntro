@@ -7,6 +7,7 @@ namespace ClassMetotDemo
         static void Main(string[] args)
         {
             
+            
         }
     }
 }
