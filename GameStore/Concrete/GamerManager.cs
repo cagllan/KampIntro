@@ -24,7 +24,6 @@ namespace GameStore.Concrete
             {
                 throw new Exception("Kullanıcı doğrulanamadı.");
 
-
             }
 
         }

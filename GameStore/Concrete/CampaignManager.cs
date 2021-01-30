@@ -13,10 +13,7 @@ namespace GameStore.Concrete
             Console.WriteLine(campaign.Name + " eklendi.");
         }
 
-        public double Calculation(Game game, Campaign campaign)
-        {
-            return game.Price - game.Price * 20 / 100;
-        }
+       
 
         public void Delete(Campaign campaign)
         {
