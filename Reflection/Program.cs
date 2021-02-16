@@ -17,6 +17,7 @@ namespace Reflection
             //Console.WriteLine(dortIslem.Topla(5, 6));
             //Console.WriteLine(dortIslem.Topla2());
 
+            //calisma anında olusturuluyor
             var instance = (DortIslem)Activator.CreateInstance(tip, 10, 20);
 
             //Console.WriteLine(instance.GetType().GetMethod("Topla2").Invoke(instance, null));
